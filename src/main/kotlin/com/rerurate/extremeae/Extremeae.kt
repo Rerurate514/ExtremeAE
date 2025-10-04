@@ -1,6 +1,7 @@
 package com.rerurate.extremeae
 
 import com.rerurate.extremeae.block.ModBlocks
+import com.rerurate.extremeae.item.ModItems
 import net.minecraft.client.Minecraft
 import net.neoforged.bus.api.SubscribeEvent
 import net.neoforged.fml.common.EventBusSubscriber
@@ -24,14 +25,12 @@ import thedarkcolour.kotlinforforge.neoforge.forge.runForDist
 object Extremeae {
     const val ID = "extremeae"
 
-    // the logger for our mod
     val LOGGER: Logger = LogManager.getLogger(ID)
 
     init {
-        LOGGER.log(Level.INFO, "Hello world!")
-
-        // Register the KDeferredRegister to the mod-specific event bus
         ModBlocks.REGISTRY.register(MOD_BUS)
+        ModItems.REGISTRY.register(MOD_BUS)
+        ModItems.CREATIVE_TABS.register(MOD_BUS)
 
         val obj = runForDist(clientTarget = {
             MOD_BUS.addListener(::onClientSetup)
