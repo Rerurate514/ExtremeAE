@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "extremeae:item/hyperdimensional_processer_transcendence_embodiment"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "extremeae:block/hyperdimensional_alloy_block"
+  }
+}
