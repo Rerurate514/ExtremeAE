@@ -1,5 +1,9 @@
 {
-  "itemGroup.extremeae": "Example Mod Tab",
-  "block.extremeae.example_block": "Example Block",
-  "item.extremeae.example_item": "Example Item"
+  "item.extremeae.hyperdimensional_alloy": "Hyperdimensional Alloy",
+  "item.extremeae.unbound_hyperdimensional_processer": "Unbound Hyperdimensional Processor",
+  "item.extremeae.hyperdimensional_processer_transcendence_embodiment": "Hyperdimensional Processor: Transcendence Embodiment",
+
+  "block.extremeae.hyperdimensional_alloy_block": "Hyperdimensional Alloy Block",
+
+  "itemGroup.extremeae.extremeae_tab": "Extreme AE"
 }
